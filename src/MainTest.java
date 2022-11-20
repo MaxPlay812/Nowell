@@ -400,7 +400,7 @@ public class MainTest {
         for (char c : strToArray) {
             System.out.print(c);
             if (c!=' ') {
-                Thread.sleep(250);
+                Thread.sleep(0);
             }
             //250ms
         }
